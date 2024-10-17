@@ -22,9 +22,8 @@ namespace AppConsoleLivres
         }
         public void AfficherInfoDuLivre() 
         {
-            Console.WriteLine($"le titre du live est : {Titre} , et lauteur de ce livre est :{Auteur} , pour un nombre de page de {NombrePages}");
+            Console.WriteLine($"le titre du livre est : { Titre } , et lauteur de ce livre est :{ Auteur } , pour un nombre de page de { NombrePages }");
             
-        
         }
 
     }
