@@ -23,8 +23,8 @@ namespace AppConsoleLivres
         public void AfficherLesInfoRevue ()
         {
 
-            Console.WriteLine ($"le titre du live est : {Titre} ," +
-                $" et lauteur de ce livre est :{Auteur} , pour un nombre de page de {NombrePages}" +
+            Console.WriteLine ($"le titre de la revue est : {Titre} ," +
+                $" et lauteur de cette revue est :{Auteur} , pour un nombre de page de {NombrePages}" +
                 $"avec un numero de : {Numero} sortit durant lannee : {Annee}");
 
 

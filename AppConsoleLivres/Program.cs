@@ -12,8 +12,23 @@ namespace AppConsoleLivres
 
 
             revue1.AfficherLesInfoRevue ();
+            Console.WriteLine();
             revue2.AfficherLesInfoRevue ();
+            Console.WriteLine();
             revue3.AfficherLesInfoRevue ();
+            Console.WriteLine();
+
+            Roman roman1 = new Roman("Les Bouts de bois de Dieu", "Ousmane Sembène", 200, "Roman Social");
+            Roman roman2 = new Roman("La Nuit des temps", "René Barjavel", 300, "Science-fiction");
+            Roman roman3 = new Roman("La Maison de la Place", "Driss Chraïbi", 210, "Fiction");
+
+            roman1.AfficherDetails();
+            Console.WriteLine();
+            roman2.AfficherDetails();
+            Console.WriteLine();
+            roman3.AfficherDetails();
+            Console.WriteLine();
+
 
             Console.ReadLine ();
         }
